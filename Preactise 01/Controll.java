@@ -36,6 +36,14 @@ public class Controll {
 		int num = scc.nextInt();
 		
 		ConstructorCall cc = new ConstructorCall(4, 4,num);
+
+		System.out.println();
+		
+		Student st = new Student("Ramesh", 101, 928954933l);
+		
+		
+		System.out.println();
+		Chaining ch = new Chaining(7, "Ganesh");
 		
 		
 	}
